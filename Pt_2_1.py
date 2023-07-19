@@ -7,7 +7,7 @@ string = colors.split()
 color = input("Введите цвет из списка, который по вашему мнению выбрала программа: ")
 index_pc_color = int(random.choice("01234"))
 while True:
-    if color != string [index_pc_color]:
+    if color != string[index_pc_color]:
         if string[index_pc_color] == "Красный":
             print("Неправильно! \nПодсказка: Такого цвета пламя")
         if string[index_pc_color] == "Синий":
