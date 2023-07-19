@@ -1,4 +1,4 @@
-sum=0
+sum = 0
 while True:
     number = int(input("Введите число: "))
     if number < 0:
